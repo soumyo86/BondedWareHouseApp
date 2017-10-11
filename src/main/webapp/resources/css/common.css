@@ -1,0 +1,104 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.has-error {
+    color: red
+}
+
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  border: 16px solid #dff0d8;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}
+#mappop {
+        height: 100%;
+      }
+.createDoc {
+	  float: left;
+	  padding-top: 5px;
+	}
+.welcomeText {
+	display: inline-block;
+	margin-left: 180px;
+} 
+.docSearch {
+	float:right;
+}  
+.TruckStatus{
+	background-color: #eee;
+    margin-bottom: 5px;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+.docStyle{
+	font-family: "Comic Sans MS",cursive,sans-serif;
+}	
+.helpMe{
+	float: right;
+	margin-right:50px;
+	margin-top:10px;
+}
